@@ -29,7 +29,7 @@
 - [Bind your Person Service to a brokered Redis Backing Service](#bind-your-person-service-to-a-brokered-redis-backing-service)
   * [Intro](#intro-1)
   * [Create Redis Service Instance and Bind it to the Person Service](#create-redis-service-instance-and-bind-it-to-the-person-service)
-  * [Update Kubernetes Deployment Configuration](#update-kubernetes-deployment-configuration)
+e  * [Update Kubernetes Deployment Configuration](#update-kubernetes-deployment-configuration)
   * [Test the Service](#test-the-service)
 - [Protect the Service](#protect-the-service)
   * [Intro](#intro-2)
@@ -59,7 +59,7 @@ This sample application was created to give you a running end to end sample appl
 
 ## Prerequisites
 
-This application runs on [Kyma](https://kyma-project.io) therefor to try out this example on your local machine you need to [install Kyma](https://kyma-project.io/docs/latest/root/kyma#getting-started-local-kyma-installation) first, or have access to Kyma cluster.
+This application runs on [Kyma](https://kyma-project.io) therefore to try out this example on your local machine you need to [install Kyma](https://kyma-project.io/docs/latest/root/kyma#getting-started-local-kyma-installation) first, or have access to Kyma cluster.
 
 ## Deploy the application
 
@@ -182,7 +182,7 @@ All pods should have status running. Otherwise repeat until this is the case.
 
 ### Try out on Kyma
 
-After deployyment you can access the swagger documentation under https://personservice.{clusterhost}/swagger-ui.html. This also allows you to try it out. 
+After deployment you can access the swagger documentation under https://personservice.{clusterhost}/swagger-ui.html. This also allows you to try it out. 
 
 If you don't like Open API (fka. Swagger) here is some other documentation:
 
